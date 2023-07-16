@@ -19,7 +19,7 @@ const Header = () => {
                     <DrawerBody>
                         <VStack alignItems={"flex-start"}>
                             <Button onClick={onClose} variant={"ghost"} colorScheme={'purple'}>
-                                <Link to={"/"}>Home</Link>
+                                <Link to={"/Chakra-UI"}>Home</Link>
                             </Button>
                             <Button onClick={onClose} variant={"ghost"} colorScheme={'purple'}>
                                 <Link to={"/videos"}>Videos</Link>
